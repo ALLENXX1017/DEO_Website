@@ -36,7 +36,7 @@ section {
 }
 
 .profile-photo {
-    width: 300px; /* 设置图片宽度为300像素 */
+    width: 300px; /* 修改图片宽度 */
     height: auto; /* 高度自动调整，保持比例 */
 }
 
