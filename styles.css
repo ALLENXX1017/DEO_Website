@@ -1,51 +1,60 @@
+/* 设置整个页面的字体和背景 */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    margin: 0;
-    padding: 0;
+    font-family: Arial, sans-serif; /* 字体设置为Arial, 后备字体为sans-serif */
+    background-color: #f0f0f0; /* 背景颜色设置为浅灰色 */
+    margin: 0; /* 去掉页面的默认外边距 */
+    padding: 0; /* 去掉页面的默认内边距 */
 }
 
+/* 设置页眉的样式 */
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 1em 0;
-    text-align: center;
+    background-color: #333; /* 背景颜色设置为深灰色 */
+    color: #fff; /* 文字颜色设置为白色 */
+    padding: 1em 0; /* 内边距设置为上下各1em，左右为0 */
+    text-align: center; /* 文字居中 */
 }
 
+/* 设置导航菜单无序列表的样式 */
 nav ul {
-    list-style-type: none;
-    padding: 0;
+    list-style-type: none; /* 去掉列表的默认项目符号 */
+    padding: 0; /* 去掉列表的默认内边距 */
 }
 
+/* 设置导航菜单列表项的样式 */
 nav ul li {
-    display: inline;
-    margin: 0 10px;
+    display: inline; /* 列表项显示为内联元素 */
+    margin: 0 10px; /* 列表项左右各有10px的外边距 */
 }
 
+/* 设置导航菜单链接的样式 */
 nav ul li a {
-    color: #fff;
-    text-decoration: none;
+    color: #fff; /* 链接文字颜色设置为白色 */
+    text-decoration: none; /* 去掉链接的下划线 */
 }
 
+/* 设置主内容区域的样式 */
 main {
-    padding: 20px;
+    padding: 20px; /* 主内容区域的内边距设置为20px */
 }
 
+/* 设置各个部分的样式 */
 section {
-    margin-bottom: 20px;
+    margin-bottom: 20px; /* 各个部分底部的外边距设置为20px */
 }
 
+/* 设置图片的样式 */
 .profile-photo {
-    width: 300px; /* 修改图片宽度 */
-    height: auto; /* 高度自动调整，保持比例 */
+    width: 300px; /* 图片的宽度设置为500像素 */
+    height: auto; /* 图片高度自动调整，保持原比例 */
 }
 
+/* 设置页脚的样式 */
 footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    background-color: #333; /* 背景颜色设置为深灰色 */
+    color: #fff; /* 文字颜色设置为白色 */
+    text-align: center; /* 文字居中 */
+    padding: 10px 0; /* 内边距设置为上下各10px，左右为0 */
+    position: fixed; /* 页脚固定在页面底部 */
+    bottom: 0; /* 距离页面底部为0 */
+    width: 100%; /* 页脚宽度设置为100% */
 }
